@@ -131,7 +131,6 @@ img {
 .phone-link {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .header-link:hover,
@@ -241,12 +240,13 @@ img {
 
 .benefits-logo-container {
   display: flex;
-  max-width: 270px;
-  min-height: 120px;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
   background-color: var(--light-bg-clr);
   border-radius: 4px;
   gap: 30px;
-  padding: 25px 100px;
 }
 
 .benefits {
@@ -357,7 +357,6 @@ img {
   height: 44px;
   background-color: #ffffff;
   border-radius: 50%;
-  padding: 12px;
 }
 
 .social-icon {
@@ -392,7 +391,6 @@ img {
   justify-content: center;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -469,7 +467,6 @@ img {
 
 .footer-container {
   display: flex;
-  justify-items: center;
   gap: 70px;
   align-items: baseline;
 }
@@ -493,7 +490,6 @@ img {
 
 .box-icon {
   fill: #ffffff;
-  margin: 12px;
 }
 
 .box-link:hover,
